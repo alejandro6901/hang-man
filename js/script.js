@@ -7,13 +7,19 @@
   var word= 'Prueba';
 function functionName(word){
 	for (var i = 0; i < word.length; i++) {
-		
+
     console.log(word.charAt(i));
 
 }
-console.log(word[3]); 
+console.log(word[3]);
 }
 
 // function functionName() {
 //   hang-man.newword();
 // }
+
+$(".ipunt-char").keyup(function(){
+  var value=$(this).val();
+  console.log(value);
+  $(this).val('');
+});
