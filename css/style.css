@@ -1,0 +1,95 @@
+body{
+  margin: 0px;
+}
+header{
+  height: 48px;
+  width: 100%;
+  color: #ffffff;
+  background: linear-gradient(to bottom right, #996633, #cc9966);
+  padding: 15px 5px 0px 5px;
+}
+.no-margin{
+  margin: 0px;
+}
+.word-box{
+ height: 60px;
+ width: 600px;
+ background: linear-gradient(to bottom right, #996633, #cc9966);
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+.box-section{
+  width: 100%;
+}
+.miniboxes{
+height: 10px;
+width: 6px;
+background: #ffffff;
+color:  #996633;
+}
+.underline{
+width: 6px;
+height: 1px;
+border-top: solid 3px;
+border-color: #339933;
+color: #339933;
+}
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 68px;
+  width: 100%;
+  color: #ffffff;
+  background: linear-gradient(to bottom right, #996633, #cc9966);
+  padding: 10px 5px 5px 5px;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.contenedorimagen{
+  width: 400px;
+  height: 400px;
+}
+.imagen{
+  display: flex;
+background-image: url('../img/ahorcado_0.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 400px;
+height: 300px;
+
+}
+.texto{
+  margin-top: 10px;
+  background: #ffffff;
+  color: #339933;
+  font-weight:bold;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
+
+.palabrafinal{
+  background: linear-gradient(to bottom right, #996633, #cc9966);
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+.ipunt-char{
+  width: 35px;
+  border: solid 0px;
+}
