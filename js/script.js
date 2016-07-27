@@ -1,5 +1,4 @@
 var hangman = function (word,path) {
-
     this.word = word;
     this.path = path;
     this.contfails= 0;
@@ -32,9 +31,6 @@ var hangman = function (word,path) {
   }
 };
 
-  
-
-
 var createObject = new hangman('HelloWord','../img/');
 createObject.play('l');
 console.log('Palabra:' +  createObject.word);
@@ -42,3 +38,4 @@ console.log('Resultado:' +  createObject.wordtemp);
 console.log('Estado Juego:' +  createObject.win);
 console.log("Intentos Fallidos:"+ createObject.contfails);
 console.log('Image:' +  createObject.image());
+
